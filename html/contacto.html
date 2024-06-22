@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto RUSTICOS FC eSPORTS</title>      
+    <meta name="description" content="Contacto de RUSTICOS FC eSPORTS. Déjanos tu mensaje si tienes alguna consulta o deseas saber más sobre nuestro equipo y competencias.">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img class="logo" src="../iMG/LOGO DE RUSTICOS.png" alt="Logo de RUSTICOS FC eSPORTS">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+            <div class="hamburguesa" onclick="toggleMenu()">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>RUSTICOS FC eSPORTS</h1>  
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna consulta? ¡Déjanos tu mensaje!</p>
+        <form action="submit_form.php" method="post">
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Escribe tu nombre..." required> 
+
+            <label for="Apellido">Apellido</label>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Escribe tu apellido..." required>
+
+            <label for="Email">Email</label>
+            <input type="email" id="Email" name="Email" placeholder="Escribe tu email..." required>
+
+            <label for="Mensaje">Mensaje</label>
+            <textarea id="Mensaje" name="Mensaje" cols="30" rows="10" placeholder="Deja tu mensaje aquí" required></textarea>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </main>
+    
+    <footer>
+        <h3>2024, ARG - Rusticos FC - Todos los derechos reservados</h3>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector("nav ul");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

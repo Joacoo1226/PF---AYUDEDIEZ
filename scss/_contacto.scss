@@ -1,0 +1,48 @@
+
+  /* Estilos específicos para la página de Contacto */
+  
+  main {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    label {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+  
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  
+    input {
+      &[type="submit"], &[type="reset"] {
+        width: auto;
+        cursor: pointer;
+        background-color: burlywood;
+        color: rgb(12, 11, 11);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+  
+      &[type="submit"]:hover, &[type="reset"]:hover {
+        background-color: #8b5e2c;
+      }
+    }
+  }
+  

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias | RUSTICOS FC eSPORTS</title>   
+    <meta name="description" content="Mantente al día con las últimas noticias de RUSTICOS FC eSPORTS, el mejor equipo de eSports de Argentina.">
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+           <img class="logo" src="../iMG/LOGO DE RUSTICOS.png" alt="Logo de RUSTICOS FC eSPORTS"> 
+        </a>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="integrantes.html">Integrantes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+            <div class="hamburguesa" onclick="toggleMenu()">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>RUSTICOS FC eSPORTS</h1>  
+        <p>Las noticias del mejor equipo de Argentina</p>
+    </main>
+    
+    <div class="parte-de-noticias">
+        <article>
+            <h2>RUSTICOS le ganó 2-1 a FURIA en un Inferno muy complicado</h2>
+            <img src="../iMG/De_infernoCS2BSite.jpg" alt="Mapa Inferno">
+            <p>Rusticos jugó un partido amistoso contra FURIA donde todo se definió en el mapa INFERNO, mapa que se le da muy bien a FURIA, pero RUSTICOS lo pudo neutralizar y ganarle.</p>
+        </article>
+        <article>
+            <h2>LUKE es el mejor jugador de la región América</h2>
+            <p>Luke últimamente está mostrando un nivel muy bueno en el equipo y eso hace que se hable de él en toda la región y por eso hicimos esta noticia dedicada para él.</p>
+            <img src="../iMG/JUGADOR 1.png" alt="Luke">
+        </article>
+    </div>
+
+    <footer>
+        <h3>2024, ARG - Rusticos FC - Todos los derechos reservados</h3>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector("nav ul");
+            menu.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
+

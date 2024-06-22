@@ -1,0 +1,29 @@
+.banner {
+  width: 100%;
+  height: 110px;
+  background-image: url("../iMG/BANNERn.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Ajustes para pantallas grandes */
+@media (min-width: 769px) {
+  .banner {
+    height: 400px; /* Aumenta la altura para pantallas grandes si es necesario */
+    background-size: contain; /* Ajusta el tamaño de la imagen para que se muestre completamente */
+    background-position: top; /* Cambia la posición para pantallas grandes */
+  }
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .banner {
+    height: 110px;
+    background-size: cover; /* La imagen cubrirá completamente el contenedor */
+    background-position: center; /* Centra la imagen */
+  }
+}
+
+
+

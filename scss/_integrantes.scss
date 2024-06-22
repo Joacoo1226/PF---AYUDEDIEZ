@@ -1,0 +1,48 @@
+/* Estilos para integrantes */
+
+.contenedordejugadores {
+  margin: 20px;
+  border: 4px solid black;
+  border-radius: 19px;
+  text-align: center;
+  background-color: burlywood;
+  padding: 20px;
+}
+
+.imgjugadores {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.contenedordejugadores p {
+  background-color: #deb887;
+  color: rgb(6, 8, 10);
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Estilos específicos para Integrantes */
+
+main {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contenedordejugadores {
+  margin-bottom: 20px;
+}
+
+.imgjugadores {
+  max-width: 100%;
+  height: auto;
+}
+
+.contenedordejugadores p {
+  margin-top: 10px;
+  font-weight: bold;
+}

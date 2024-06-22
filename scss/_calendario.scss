@@ -1,0 +1,27 @@
+/* Estilos generales para el calendario */
+.Contenedorcalendario {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.Imgcalendario {
+  max-width: 70%;
+  height: auto;
+  border-radius: 5px;
+  margin: 20px auto; 
+}
+
+/* Estilos de calendario */
+@media (min-width: 1024px) {
+  .Imgcalendario {
+    max-width: 70%; 
+    margin: 50px auto; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .Imgcalendario {
+    max-width: 100%; 
+    margin: 20px 10px; 
+  }
+}
